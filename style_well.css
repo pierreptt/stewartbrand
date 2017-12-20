@@ -1,0 +1,245 @@
+@charset "UTF-8";
+	/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+	*/
+
+		html, body, div, span, applet, object, iframe,
+		h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+		a, abbr, acronym, address, big, cite, code,
+		del, dfn, em, img, ins, kbd, q, s, samp,
+		small, strike, strong, sub, sup, tt, var,
+		b, u, i, center,
+		dl, dt, dd, ol, ul, li,
+		fieldset, form, label, legend,
+		table, caption, tbody, tfoot, thead, tr, th, td,
+		article, aside, canvas, details, embed, 
+		figure, figcaption, footer, header, hgroup, 
+		menu, nav, output, ruby, section, summary,
+		time, mark, audio, video {
+			margin: 0;
+			padding: 0;
+			border: 0;
+			font-size: 100%;
+			font: inherit;
+			vertical-align: baseline;
+		}
+		/* HTML5 display-role reset for older browsers */
+		article, aside, details, figcaption, figure, 
+		footer, header, hgroup, menu, nav, section {
+			display: block;
+		}
+		body {
+			line-height: 1;
+		}
+		ol, ul {
+			list-style: none;
+		}
+		blockquote, q {
+			quotes: none;
+		}
+		blockquote:before, blockquote:after,
+		q:before, q:after {
+			content: '';
+			content: none;
+		}
+		table {
+			border-collapse: collapse;
+			border-spacing: 0;
+		}
+
+body{
+	background-color: #0f162e;
+	margin-top: 30px;
+	margin-left: 10px;
+}
+
+#conteneur{
+	
+	font-family: Roboto, sans-serif;
+	background-image: url(images/fond_well.gif); 
+	background-repeat: no-repeat, repeat;
+	background-size: cover;
+	width: 1100px;
+	height: 621px;
+	margin:auto;
+
+}
+
+header{
+	display: inline-block;
+	font-size: 28px;
+	font-weight: bolder;
+	position: relative;
+	left: 775px;
+	top: 60px;
+	color: white;
+	text-align: center;
+	
+	-ms-transform: scale(1,1);
+	-webkit-transform: scale(1,1);
+	transform: scale(1,1);
+
+	-ms-transition: -ms-transform 1s ease;
+	-webkit-transition: -webkit-transform 1s ease;
+	transition: transform 1s ease;
+}
+
+header:hover{
+	
+	-ms-transform: scale(1.1,1.1);
+	-webkit-transform: scale(1.1,1.1);
+	transform: scale(1.1,1.1);
+
+	-ms-transition: -ms-transform 0.5s ease;
+	-webkit-transition: -webkit-transform 0.5s ease;
+	transition: transform 0.5s ease;
+
+}
+
+a:visited{
+	color: white;
+}
+
+
+#a_index img{
+	width:29px;
+	left: 150px;
+	top: 60px;
+	position: relative;
+
+
+	-ms-transform: scale(1,1);
+	-webkit-transform: scale(1,1);
+	transform: scale(1,1);
+
+	-ms-transition: -ms-transform 1s ease;
+	-webkit-transition: -webkit-transform 1s ease;
+	transition: transform 1s ease;
+
+}
+
+#a_index img:hover{
+
+	-ms-transform: scale(1.2,1.2);
+	-webkit-transform: scale(1.2,1.2);
+	transform: scale(1.2,1.2);
+
+	-ms-transition: -ms-transform 0.5s ease;
+	-webkit-transition: -webkit-transform 0.5s ease;
+	transition: transform 0.5s ease;
+}
+
+
+#a_titre_index{
+	position: relative;
+	left: 195px;
+	top: 25px;
+	color: white;
+
+}
+
+#a_catalog img{
+	width:29px;
+	position: relative;
+	left:43px;
+	top:458px;
+
+
+	-ms-transform: scale(1,1);
+	-webkit-transform: scale(1,1);
+	transform: scale(1,1);
+
+	-ms-transition: -ms-transform 1s ease;
+	-webkit-transition: -webkit-transform 1s ease;
+	transition: transform 1s ease;
+
+}
+
+#a_catalog img:hover{
+
+	-ms-transform: scale(1.2,1.2);
+	-webkit-transform: scale(1.2,1.2);
+	transform: scale(1.2,1.2);
+
+	-ms-transition: -ms-transform 0.5s ease;
+	-webkit-transition: -webkit-transform 0.5s ease;
+	transition: transform 0.5s ease;
+}
+
+#a_titre_catalog{
+	color: white;
+	position: relative;
+	left: 0px;
+	top: 518px;
+
+}
+
+#a_wired img{
+	width:29px;
+	position: relative;
+	left:615px;
+	top:435px;
+
+
+	-ms-transform: scale(1,1);
+	-webkit-transform: scale(1,1);
+	transform: scale(1,1);
+
+	-ms-transition: -ms-transform 1s ease;
+	-webkit-transition: -webkit-transform 1s ease;
+	transition: transform 1s ease;
+
+}
+
+#a_wired img:hover{
+
+	-ms-transform: scale(1.2,1.2);
+	-webkit-transform: scale(1.2,1.2);
+	transform: scale(1.2,1.2);
+
+	-ms-transition: -ms-transform 0.5s ease;
+	-webkit-transition: -webkit-transform 0.5s ease;
+	transition: transform 0.5s ease;
+}
+
+#a_titre_wired{
+	color: white;
+	position: relative;
+	left: 490px;
+	top: 487px;
+
+}
+
+#texte_1{
+	color: white;
+	position: relative;
+	width: 143px;
+	font-size: 9.2px;
+	left: 500px;
+	top: 17px;
+	text-align: justify;
+	text-indent:2em;
+}
+
+#texte_2{
+	color: white;
+	width: 145px;
+	font-size: 9.2px;
+	position: relative;
+	left: 772px;
+	top: 42px;
+	text-align: justify;
+	text-indent:2em;
+}
+
+#texte_3{
+	color: white;
+	position: relative;
+	width: 148px;
+	font-size: 9px;
+	left: 570px;
+	top: 127px;
+	text-align: justify;
+	text-indent:2em;
+}

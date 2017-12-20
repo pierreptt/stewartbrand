@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="fr">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>STEWART BRAND</title>
+		<link rel="stylesheet" href="style.css">
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+	</head>
+
+	<body>
+
+		<div id="conteneur">
+
+			<nav>
+
+				<!--les éléments de ma nav n'étant pas situé au même endroit sur la page, je n'ai pas utilisé la fonction de liste, mais des ids indépendants. -->
+
+				<div class="boutons">
+
+					<!--j'ai ajouté l'effet de style suivant ayant quelques problèmes avec le soulignement de mes liens (que je ne souhaite pas avoir) -->
+
+					<style type="text/css"> 
+					a:link 
+						{ 
+ 						text-decoration:none; 
+						} 
+					</style>
+					
+
+					<a id="a_hippies" title="Les Hippies" href="hippies.html">
+
+						<!--pour chaque lien sur cette page, l'utilisateur peut utiliser le bouton ou le texte, d'où la présence de deux éléments dans mes balises a.-->
+
+						<img src="images/bouton.png">
+						
+						<span id="a_titre_hippies">LES HIPPIES</span>
+
+						<span id="p_hippies">
+							Au début des années soixante-dix, 750000 américains partent vivre dans des communautés, exilés dans les forêts californiennes ou les déserts du Nouveau-Mexique...
+						</span>
+
+					</a>
+
+
+					<a id="a_catalog" title="The Whole Earth Catalog" href="catalog.html">
+
+						<img src="images/bouton.png">
+
+						<span id="a_titre_catalog">WHOLE EARTH CATALOG</span>
+
+					</a>
+
+				
+					<a id="a_well" title="The WELL" href="well.html">
+
+						<img src="images/bouton.png">
+
+						<span id="a_titre_well">THE WELL</span>
+
+					</a>
+				
+
+					<a id="a_wired" title="The Wired" href="wired.html">
+
+						<img src="images/bouton.png">
+
+						<span id="a_titre_wired">THE WIRED</span>
+
+					</a>
+
+				</div>
+
+			</nav>
+		</div>
+
+	</body>
+
+</html>
